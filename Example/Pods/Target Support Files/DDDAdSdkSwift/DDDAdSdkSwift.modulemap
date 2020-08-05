@@ -1,0 +1,6 @@
+framework module DDDAdSdkSwift {
+  umbrella header "DDDAdSdkSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

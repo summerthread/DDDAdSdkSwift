@@ -1,0 +1,27 @@
+PODS:
+  - DDDAdSdkSwift (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DDDAdSdkSwift (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DDDAdSdkSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDDAdSdkSwift: 748a8d0b75e258bc5316e10e692ffd487704fbf7
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 3a8de8506e6f92a7b7fa7e2b1c57d52911c204cb
+
+COCOAPODS: 1.9.2

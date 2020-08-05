@@ -1,0 +1,6 @@
+framework module Pods_DDDAdSdkSwift_Example {
+  umbrella header "Pods-DDDAdSdkSwift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
