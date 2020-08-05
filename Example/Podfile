@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DDDAdSdkSwift_Example' do
+  pod 'DDDAdSdkSwift', :path => '../'
+
+  target 'DDDAdSdkSwift_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
